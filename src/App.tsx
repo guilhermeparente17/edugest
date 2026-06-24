@@ -1,5 +1,11 @@
+import AppRouter from "./routes/AppRouter";
+
 function App() {
-  return <>ola mundo</>;
+  return (
+    <>
+      <AppRouter />
+    </>
+  );
 }
 
 export default App;
